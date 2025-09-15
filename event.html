@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Wijaya</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <div id="logo">Christian Wijaya</div>
+        <div>
+            <ul id="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a class="active" href="event.html">Event</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li id="lg-bag"><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="#"><i class="fas fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="hero-event">
+        <img src="./assets/Carousel 1.webp" alt="Hero Image" class="hero-bg" />
+        <div class="hero-event-content">
+            <h1>Be the Face of the Next Big Thing — Apply Now!</h1>
+            <p><a href="#event-content" class="scroll-link">Click Here to Complete Your Profile</a></p>
+        </div>
+    </section>
+
+    <section id="event-content">
+        <form id="event-form">
+            <div class="input-control">
+                <p><label for="fullname">Full Name<span>*</span></label></p>
+                <div class="error"></div>
+                <input type="text" id="fullname" name="fullname">
+            </div>
+
+            <div class="input-control">
+                <p><label for="email">Email<span>*</span></label></p>
+                <div class="error"></div>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="input-control">
+                <p><label for="dob">Date of Birth<span>*</span></label></p>
+                <div class="error"></div>
+                <input type="date" id="dob" name="dob">
+            </div>
+
+            <div class="input-control">
+                <p><label for="gender-options">Gender<span>*</span></label></p>
+                <div class="error"></div>
+                <div class="gender-options">
+                    <label><input type="radio" name="gender" value="Male"> Male</label>
+                    <label><input type="radio" name="gender" value="Female"> Female</label>
+                </div>
+            </div>
+
+            <div class="input-control">
+                <div class="terms">
+                    <label>
+                        <input type="checkbox" name="terms" id="terms">
+                        I do agree with all <a href="#">Terms & Condition</a> on this site
+                    </label>
+                </div>
+                <div class="error"></div>
+            </div>
+
+            <input type="submit" value="Submit">
+            <div class="error-message"></div>
+        </form>
+    </section>
+
+    <script src="event.js"></script>
+</body>
+
+<footer>
+    <section id="info">
+        <h4>Informations</h4>
+        <a href="#">Frequently Asked Question</a>
+        <a href="#">Payment Method</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms & Condition</a>
+    </section>
+
+    <section id="subscribe">
+        <div>
+            <h4>Sign up for <strong><span>Exclusive Offer</span></strong></h4>
+            <div class="form">
+                <input type="email" placeholder="Your email address">
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="last">
+        <div class="follow-us">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+        <p>&copy; 2025 Christian Wijaya. All rights reserved.</p>
+    </section>
+
+</footer>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Wijaya</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <div id="logo">Christian Wijaya</div>
+        <div>
+            <ul id="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a class="active" href="product.html">Products</a></li>
+                <li><a href="event.html">Event</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li id="lg-bag"><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="#"><i class="fas fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+
+    <section class="prodetails">
+        <a href="product.html"><i class="fas fa-arrow-left"></i></a>
+        <div class="prodetails-img">
+            <img id="product-image" src="" alt="" width="100%">
+        </div>
+        <div class="prodetails-desc">
+            <h3 id="product-name"></h3>
+            <h2 id="product-price"></h2>
+            <strong>Quantity</strong>
+            <input type="number" value="1" min="1">
+            <button class="add-to-chart">ADD TO CART</button>
+            <button class="order-now">ORDER NOW</button>
+            <h4>Product Description</h4>
+            <p id="product-description"></p>
+        </div>
+    </section>
+
+
+    <script src="productDetail.js"></script>
+</body>
+
+<footer>
+    <section id="info">
+        <h4>Informations</h4>
+        <a href="#">Frequently Asked Question</a>
+        <a href="#">Payment Method</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms & Condition</a>
+    </section>
+
+    <section id="subscribe">
+        <div>
+            <h4>Sign up for <strong><span>Exclusive Offer</span></strong></h4>
+            <div class="form">
+                <input type="email" placeholder="Your email address">
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="last">
+        <div class="follow-us">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+        <p>&copy; 2025 Christian Wijaya. All rights reserved.</p>
+    </section>
+
+</footer>
+
+</html>
