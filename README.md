@@ -2,8 +2,8 @@
 This project, developed for a 4th-semester Human-Computer Interaction course, is a front-end website for **Christian Wijaya**, a fashion brand. The brand is known for its timeless elegance, modern sophistication, and commitment to sustainable luxury.
 
 The goal of this project was to design and build a fully functional, responsive, and aesthetically pleasing website that embodies the brand's high-end identity. The project was executed in two main phases:
-1.  **Prototyping:** A complete website prototype was designed in **Figma**, focusing on layout, color, consistency, and interactive components to establish the user experience.
-2.  **Development:** The website was built from scratch using **vanilla HTML, CSS, and JavaScript**, without the use of any frameworks.
+* **Prototyping:** A complete website prototype was designed in **Figma**, focusing on layout, color, consistency, and interactive components to establish the user experience.
+* **Development:** The website was built from scratch using **vanilla HTML, CSS, and JavaScript**, without the use of any frameworks.
 
 ---
 
